@@ -4,7 +4,6 @@
   "parserOptions": { "project": ["./tsconfig.json"] },
   "plugins": ["eslint-plugin-prettier"],
   "rules": {
-    "no-unused-vars": "error",
     "prettier/prettier": [
       "error",
       {
