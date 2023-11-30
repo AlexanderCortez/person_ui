@@ -8,7 +8,7 @@
     "lint": "eslint .",
     "lint-fix": "eslint --fix .",
     "start": "react-scripts start",
-    "test": "react-scripts test"
+    "test": "jest"
   },
   "browserslist": {
     "production": [
@@ -47,6 +47,9 @@
     "eslint-config-airbnb-typescript": "^17.1.0",
     "eslint-config-prettier": "^9.0.0",
     "eslint-plugin-prettier": "^5.0.1",
-    "prettier": "^3.1.0"
+    "jest-environment-jsdom": "^29.7.0",
+    "prettier": "^3.1.0",
+    "ts-jest": "^29.1.1",
+    "ts-node": "^10.9.1"
   }
 }
